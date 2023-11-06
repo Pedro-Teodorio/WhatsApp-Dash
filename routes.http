@@ -1,0 +1,12 @@
+POST http://localhost:3000/message/create
+Content-Type: application/json
+
+{
+     "title":"Welcome", 
+     "content" :"Seja bem vindo ao nosso chat",
+     "isActive": "Ativo",
+     "typeMessage": "LIST"
+}
+###
+
+GET http://localhost:3000/message/list
